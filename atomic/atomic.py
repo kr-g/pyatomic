@@ -5,8 +5,7 @@ from threading import Lock, currentThread
 
 class AtomicException(Exception):
     """base exception class"""    
-    def __init__(self,*args):
-        super().__init__(self,*args)
+    pass
 
 class AtomicTimeoutException( AtomicException ):
     pass

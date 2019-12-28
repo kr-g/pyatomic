@@ -5,7 +5,7 @@ with open("README.MD", "r") as fh:
 
 setuptools.setup(
     name="pyatomic", 
-    version="0.0.1",
+    version="0.0.2",
     author="k.r. goger",
     author_email="k.r.goger+pyatomic@gmail.com",
     description="Atomic makes your code thread safe",
